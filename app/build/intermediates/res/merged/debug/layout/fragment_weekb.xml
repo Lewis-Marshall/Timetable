@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E3E3E">
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:showDividers="middle|beginning|end">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:id="@+id/Day">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText"
+                    android:text="@string/Mon"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText2"
+                    android:text="@string/Tue"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText3"
+                    android:text="@string/Wed"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText4"
+                    android:text="@string/Thu"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:clickable="false" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText5"
+                    android:text="@string/Fri"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:clickable="false" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Period1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText6"
+                    android:text="@string/Physics"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText7"
+                    android:text="@string/Computing"
+                    android:layout_weight="1"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText8"
+                    android:text="@string/English"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText9"
+                    android:text="@string/Computing"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText10"
+                    android:text="@string/English"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Period2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText11"
+                    android:text="@string/English"
+                    android:layout_weight="1"
+                    android:background="#DADADA"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText12"
+                    android:text="@string/Free"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText13"
+                    android:text="@string/English"
+                    android:layout_weight="1"
+                    android:background="#DADADA"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText14"
+                    android:text="@string/Physics"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText15"
+                    android:text="@string/Computing"
+                    android:layout_weight="1"
+                    android:background="#DADADA"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Period3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText16"
+                    android:text="@string/Free"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText17"
+                    android:text="@string/English"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText18"
+                    android:text="@string/Physics"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText19"
+                    android:text="@string/Free"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText20"
+                    android:text="@string/Free"
+                    android:layout_weight="1"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Period4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText21"
+                    android:text="@string/Physics"
+                    android:layout_weight="1"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText22"
+                    android:text="@string/Computing"
+                    android:layout_weight="1"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText23"
+                    android:text="@string/Maths"
+                    android:layout_weight="1"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText24"
+                    android:text="@string/Physics"
+                    android:layout_weight="1"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText25"
+                    android:text="@string/Free"
+                    android:layout_weight="1"
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:background="#DADADA"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Period5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/Physics"
+                    android:id="@+id/textView"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/Free"
+                    android:id="@+id/textView2"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/Maths"
+                    android:id="@+id/textView3"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/Maths"
+                    android:id="@+id/textView4"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#DADADA"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/Computing"
+                    android:id="@+id/textView5"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_weight="1" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/C:/Users/Lewis/AndroidStudioProjects/NavigationDrawerExample/app/src/main/res/layout/fragment_weekb.xml -->

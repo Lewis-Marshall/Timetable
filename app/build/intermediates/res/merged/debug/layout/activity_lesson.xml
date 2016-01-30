@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.timetable.LessonActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+    <LinearLayout
+        android:paddingTop="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesson Is"
+            android:onClick="onSendUsersName"/>
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+</LinearLayout>
+
+
+<!-- From: file:/C:/Users/Lewis/AndroidStudioProjects/NavigationDrawerExample/app/src/main/res/layout/activity_lesson.xml -->
