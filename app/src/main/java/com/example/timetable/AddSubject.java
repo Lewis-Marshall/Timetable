@@ -33,8 +33,8 @@ public class AddSubject extends ActionBarActivity {
                     @Override
                     public void onClick(View v)
                     {
-                        boolean isInseted =  myDb.insertData(editSubjectName.getText().toString(), editAbbreviation.getText().toString());
-                        if(isInseted = true)
+                        boolean isInserted =  myDb.insertData(editSubjectName.getText().toString(), editAbbreviation.getText().toString());
+                        if(isInserted)
                         {
                             Toast.makeText(getBaseContext(), "Data Added", Toast.LENGTH_LONG).show();
                         }

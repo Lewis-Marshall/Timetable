@@ -211,8 +211,8 @@ public class MainActivity extends ActionBarActivity {
                     @Override
                     public void onClick(View v)
                     {
-                       boolean isInseted =  myDb.insertData(editSubjectName.getText().toString(), editAbbreviation.getText().toString());
-                        if(isInseted = true)
+                       boolean isInserted =  myDb.insertData(editSubjectName.getText().toString(), editAbbreviation.getText().toString());
+                        if(isInserted)
                         {
                             Toast.makeText(MainActivity.this, "Data Added", Toast.LENGTH_LONG).show();
                         }
